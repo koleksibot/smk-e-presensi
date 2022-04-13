@@ -1,0 +1,27 @@
+data view yang dibutuhkan
+cek validasi form
+    lolos
+        cek jam mulai absen
+            sudah mulai
+                cek sudah absen / belum
+                    sudah absen
+                        kembali kehalaman absen
+                    end sudah absen
+                    belum absen
+                        cek jam absen 
+                            jika absen antara jam 06:00 - 08:00
+                                uraian isikan tepat waktu
+                            jika absen lebih dari jam 08:00
+                                uraian isikan terlambat
+                        end cek jam absen
+                        cek 
+                    end belum absen
+                end cek sudah absen / belum
+            end sudah mulai
+            belum mulai
+                kembali kehalaman absen
+            end belum mulai
+        end cek jam mulai absen
+    tidak lolos
+        kembali ke halaman absen
+end cek validasi form
